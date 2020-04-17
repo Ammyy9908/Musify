@@ -52,8 +52,8 @@ const playSong = ()=>{
 song.src = data[currentSong].src;
 $('#title').html(data[currentSong].name);
 $('#author').html('--by '+data[currentSong].artist);
-$('.cover').css('background-image','url(/assets/'+data[currentSong].cover+')');
-$('#blur').css('background-image','url(/assets/'+data[currentSong].blur+')');
+$('.cover').css('background-image','url(assets/'+data[currentSong].cover+')');
+$('#blur').css('background-image','url(assets/'+data[currentSong].blur+')');
 song.play();
 }
 
@@ -103,7 +103,7 @@ const next = ()=>
       }
       playSong();
       $('#play').html('pause');
-      cover.style.backgroundImage='url(/assets/'+data[currentSong].cover+')';
+      cover.style.backgroundImage='url(assets/'+data[currentSong].cover+')';
       
 }
 
@@ -116,7 +116,7 @@ const prev = ()=>
       }
       playSong();
       $('#play').html('pause');
-      cover.style.backgroundImage='url(/assets/'+data[currentSong].cover+')';
+      cover.style.backgroundImage='url(assets/'+data[currentSong].cover+')';
       
       
 }
