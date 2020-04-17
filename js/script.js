@@ -102,6 +102,7 @@ const next = ()=>
             currentSong=0;
       }
       playSong();
+      fillBar.value=pos*0;
       $('#play').html('pause');
       cover.style.backgroundImage='url(assets/'+data[currentSong].cover+')';
       
