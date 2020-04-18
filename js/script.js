@@ -39,7 +39,14 @@ const data = [{
       blur:'blur5.png',
       artist:'Vishal Mishra',
       src:'musics/fifth.mp3'
-}];
+},
+      {
+            name: 'Lal Chunariya',
+            cover: 'sixth.jpg',
+            blur: 'blur6.png',
+            artist: 'Akull',
+            src: 'musics/sixth.mp3'
+      }];
 
 
 console.log(data[0].name,data[0].cover);
