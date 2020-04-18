@@ -46,7 +46,15 @@ const data = [{
             blur: 'blur6.png',
             artist: 'Akull',
             src: 'musics/sixth.mp3'
-      }];
+      }
+             ,
+{
+      name:'FilHaal-Female Version',
+      cover:'seventh.jpg',
+      blur:'blur7.png',
+      artist:'Nupur Sanon',
+      src:'musics/seventh.mp3'
+}];
 
 
 console.log(data[0].name,data[0].cover);
