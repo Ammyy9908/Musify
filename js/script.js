@@ -104,7 +104,7 @@ fillBar.value=pos*100;
 const next = ()=>
 {
       currentSong++;
-      if(currentSong>4)
+      if(currentSong>data.length)
       {
             currentSong=0;
       }
@@ -120,7 +120,7 @@ const prev = ()=>
       currentSong--;
       if(currentSong<0)
       {
-            currentSong=4;
+            currentSong=data.length;
       }
       playSong();
       $('#play').html('pause');
